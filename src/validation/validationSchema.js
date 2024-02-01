@@ -28,14 +28,12 @@ export const createValidationSchema = (fields, intl) => {
                     validator = validator.email(message);
                     break;
                 case 'matchesField':
-                    // Add a custom test for matching another field
                     validator = validator.test('matches-field', message, function(value) {
                         // `this` is the Yup context, which can resolve other field values
                         const otherFieldValue = this.parent[val.parameters.target];
                         return value === otherFieldValue;
                     });
                     break;
-                // Add other validator conditions here
             }
         });
 

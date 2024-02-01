@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+## Kratke informacije o projektu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+U ovom projektu sam koristio React framework. Takođe, koristio sam JSON datoteku iz priloženog zadatka, prateći njenu strukturu za svako polje, kao i svaki korak. Budući da je bilo dva koraka, na prvom su bili 'username', 'first name', 'last name', dok su na drugom bili 'adresa', 'broj telefona' i ostalo.
 
-In the project directory, you can run:
+Što se tiče stila, koristio sam SCSS. U dijelu koda postoji upotreba selektora, kao što su h1, h2 i slično, iako to nije praksa. Nijesam stigao da to izmijenim i da importujem u druge datoteke za svaku komponentu, kao što su FormContainer, InputText i ostali. Iako se radi o manjoj aplikaciji, to nije opravdanje.
 
-### `npm start`
+Za validaciju šeme koristio sam yup, koji je preporučen kada se radi validacija.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Takođe, za prikaz uspješnog slanja forme koristio sam biblioteku react-toastify.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Za dvojezičnu formu, koristio sam react-intl, koja je dio biblioteke react-i18next.
 
-### `npm test`
+Na kraju, za kreiranje same forme koristio sam Formik, koji se obično koristi zajedno sa yup validatorom kada se razvija React aplikacija.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Trudio sam se da uradim sve što je predviđeno zadatkom. Iako nemam previše iskustva sa Reactom, u proteklih nekoliko dana dao sam sve od sebe da odradim što više.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ukoliko imate bilo kakvih pitanja, stojim Vam na raspolaganju da na ista odgovorim.

@@ -66,7 +66,6 @@ const FormContainer = () => {
  
     const maxStep = Math.max(...formFields.map(field => field.step || 0));
     const currentFields = formFields.filter(field => field.step === currentStep);
-    // Assuming you have access to Formik's errors and touched states
     const areCurrentStepFieldsValid = (currentFields, errors) => {
         return currentFields.every(field => {
             // Check if the field has an error; it's valid if there's no error for it
@@ -90,8 +89,6 @@ const FormContainer = () => {
  
     return (
         <div className="form-container">
-            {/* Inesrt image here its located in src/assets/monkey-circle.png */}
-            {/* <img className='monkey-icon' src={require('../../assets/monkey-circle.png')} alt="monkey" /> */}
             <h1 className='center mt-xl'>Register</h1>
             <Formik
                 initialValues={initialValues}
